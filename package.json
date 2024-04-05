@@ -1,15 +1,16 @@
 {
   "name": "travel-france-backend",
   "version": "1.0.0",
+  "description": "Backend for Travel France application",
   "scripts": {
-    "start": "node index.js"  
+    "start:scavengerHuntBackend": "node scavengerHuntBackend.js",
+    "start:exposedApis": "node exposedApis.js",
+    "build": "echo 'No build step needed'"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.3",
     "mongoose": "^8.2.1"
   },
-  "devDependencies": {
-   
-  }
+  "devDependencies": {}
 }
