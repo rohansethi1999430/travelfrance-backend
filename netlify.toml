@@ -1,10 +1,10 @@
 # example netlify.toml
 [build]
-  command = "npm run start"
-  functions = "api/"
-  publish = ""  # Empty string since you're not using a static site generator
+  command = "npm run start:scavengerHuntBackend" # or "npm run start:exposedApis" depending on which API you want to start
+  functions = "api" # Assuming your API files are in the "api" directory
+  publish = "" # Specify your publish directory if needed
 
-
+  
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
