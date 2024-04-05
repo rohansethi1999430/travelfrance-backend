@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Backend for Travel France application",
   "scripts": {
-    "start:scavengerHuntBackend": "node scavengerHuntBackend.js",
-    "start:exposedApis": "node exposedApis.js",
+    "start": "node scavengerHuntBackend.js",
     "build": "echo 'No build step needed'"
   },
   "dependencies": {
