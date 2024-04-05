@@ -1,6 +1,6 @@
 # example netlify.toml
 [build]
-  command = "npm run start"  depending on which API you want to start
+  command = "npm run start"  # depending on which API you want to start
   functions = "api" # Assuming your API files are in the "api" directory
   publish = "" # Specify your publish directory if needed
 
